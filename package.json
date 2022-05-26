@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --node-env production",
-    "dev": "webpack --node-env development"
+    "dev": "webpack serve --node-env development"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "node-static": "^0.7.11",
     "nodemon": "^2.0.16",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   }
 }
