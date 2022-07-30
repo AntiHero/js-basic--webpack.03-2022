@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"yBAEaA,SAASC,KAAKC,cAAc,MAEpCC,YAAc,U","sources":["webpack://webpack/./src/index.js"],"sourcesContent":["import '../css/style.css';\n\nconst h1El = document.body.querySelector('h1');\n\nh1El.textContent = 'Webpack';"],"names":["document","body","querySelector","textContent"],"sourceRoot":""}
